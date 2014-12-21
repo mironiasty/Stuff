@@ -37,7 +37,11 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Asserts\TestLibrary.cs" />
+    <Compile Include="Asserts\ExpectationFailedException.cs" />
+    <Compile Include="Asserts\SuperActionTestLibrary.cs" />
+    <Compile Include="Asserts\SuperIntTestLibrary.cs" />
+    <Compile Include="Asserts\SuperObjectTestLibrary.cs" />
+    <Compile Include="Asserts\ThisIsExtensiooooon.cs" />
     <Compile Include="Attributes\ExpectedExceptionAttribute.cs" />
     <Compile Include="Attributes\TestMethodAttribute.cs" />
     <Compile Include="Program.cs" />

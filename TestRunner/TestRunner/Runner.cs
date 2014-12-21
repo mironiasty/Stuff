@@ -10,6 +10,7 @@ namespace TestRunner
     class Runner
     {
         private Assembly testedAssembly;
+
         public Runner(Assembly assembly)
         {
             testedAssembly = assembly;
